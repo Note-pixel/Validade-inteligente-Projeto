@@ -1,0 +1,9 @@
+.search{display:flex;align-items:center;gap:10px;height:52px;margin:16px 0 12px;padding:0 16px;background:var(--surf);border:1.5px solid var(--bd2);border-radius:14px;transition:.15s}
+.search:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-b)}
+.search svg{width:22px;height:22px;stroke:var(--ink2);fill:none;stroke-width:2;stroke-linecap:round}
+.search input{flex:1;border:0;outline:0;background:none;font:400 16px 'Inter';color:var(--ink)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:2px 0 12px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.fchip{flex:none;height:36px;padding:0 14px;border-radius:99px;border:1.5px solid var(--bd2);background:var(--surf);font:500 13px 'Inter';color:#434B3E;cursor:pointer;transition:.15s}
+.fchip.on{background:var(--deep);border-color:var(--deep);color:#fff}
+#contagem{margin-bottom:12px}
+.vazio{text-align:center;padding:40px 8px;display:flex;flex-direction:column;gap:10px;align-items:center}.vazio div{font-size:56px}

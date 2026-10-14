@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Despensa · Validade Inteligente</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css"><link rel="stylesheet" href="despensa.css"></head>
+<body><main class="app">
+  <h1>Despensa</h1>
+  <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg>
+    <input id="busca" type="search" placeholder="Buscar alimento" aria-label="Buscar alimento"></label>
+  <div class="chips" id="filtros" role="group" aria-label="Filtros"></div>
+  <p class="muted" id="contagem"></p>
+  <section id="lista" aria-live="polite"></section>
+  <div class="vazio" id="vazio" hidden><div>🧺</div><h3>Nada por aqui</h3><p class="muted">Adicione seu primeiro alimento para começar.</p><a class="btn btn-p" href="adicionar.html">Adicionar alimento</a></div>
+  <div id="nav"></div>
+</main>
+<script src="common.js"></script><script src="common.js"></script></body></html>

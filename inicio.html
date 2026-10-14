@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Início · Validade Inteligente</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css"><link rel="stylesheet" href="inicio.css"></head>
+<body><main class="app">
+  <header class="row between"><div><h1>Olá, Milena</h1><p class="muted">Veja o que vence primeiro.</p></div>
+    <a class="bell" href="alertas.html" aria-label="Alertas, 2 novos"><svg viewBox="0 0 24 24"><path d="M6 17v-6a6 6 0 0 1 12 0v6l2 2H4zM10 21h4"/></svg><b></b></a></header>
+  <section class="summary" aria-label="Resumo da despensa">
+    <div class="sum ok"><strong id="n-ok">0</strong><span>Seguros</span></div>
+    <div class="sum so"><strong id="n-so">0</strong><span>Vencendo</span></div>
+    <div class="sum ex"><strong id="n-ex">0</strong><span>Vencidos</span></div></section>
+  <div class="section-head"><h2>Vence primeiro</h2><a class="link" href="despensa.html">Ver tudo</a></div>
+  <section id="lista" aria-label="Alimentos que vencem primeiro"></section>
+  <aside class="ia"><div class="spark" aria-hidden="true">✨</div><h3>Que tal uma receita com o que vence logo?</h3>
+    <a class="btn btn-sm" href="receitas.html">Ver receitas com IA</a></aside>
+  <div id="nav"></div>
+</main>
+<script src="common.js"></script><script src="inicio.js"></script></body></html>
